@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F1F1F1;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1A1A;
+    padding: 20px 10px;
+}
+
+.box{
+    width: 400px;
+    height: 10px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.box > img{
+    font-size: 20px;
+    color: #777;
+    left: 50px;
+
+}
+
+.box > input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.dc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 10px;
+}
+.logo img{
+    max-width: 120px;
+    height: 50%;
+}
+
+.dc a{
+    text-decoration: none;
+    border: #1A1A1A;
+    color: white;
+    border-radius: 10px;
+}
+
+.even{
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 3px solid;
+    border-radius: 20px;
+    background-color: #222222;
+    color: #fff;
+    
+    
+}
+
+.even p{
+    display: flex;
+    flex: 1;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.even button{
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.even img{
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.even button{
+    cursor: pointer;
+    
+}
+
+.odd{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+    margin-top: 15px;
+}
+
+.card{
+    display: flex;
+}
